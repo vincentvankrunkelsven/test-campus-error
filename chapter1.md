@@ -103,7 +103,7 @@ plt.show()
 # SCT written with pythonwhat: https://github.com/datacamp/pythonwhat/wiki
 
 test_function("numpy.unique",
-              not_called_msg = "Don't remove the call of `np.unique` to define `ints`.",
+              not_called_msg = "Don't remove the call of "np.unique" to define `ints`.",
               incorrect_msg = "Don't change the call of `np.unique` to define `ints`.")
 
 test_object("ints",
