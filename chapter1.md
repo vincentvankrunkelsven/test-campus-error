@@ -103,7 +103,7 @@ plt.show()
 # SCT written with pythonwhat: https://github.com/datacamp/pythonwhat/wiki
 
 test_function("numpy.unique",
-              not_called_msg = "Don't remove the call of "np.unique" to define `ints`.",
+              not_called_msg = "Don't remove the call of `np.unique` to define `ints`.",
               incorrect_msg = "Don't change the call of `np.unique` to define `ints`.")
 
 test_object("ints",
@@ -116,6 +116,8 @@ test_function("matplotlib.pyplot.scatter",
               incorrect_msg = "You didn't use `plt.scatter()` correctly, have another look at the instructions.")
 
 test_function("matplotlib.pyplot.show")
+
+test_student_typed("test")
 
 success_msg("Great work!")
 ```
