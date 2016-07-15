@@ -41,7 +41,7 @@ msg_success = "Exactly! The correlation is very weak though."
 test_mc(4, [msg_bad, msg_bad, msg_bad, msg_success])
 ```
 
---- type:NormalExercise lang:python xp:100 skills:1 key:a970ebd541
+--- type:TestingExercise lang:python xp:100 skills:1 key:5fc7677017
 ## Plot the movies yourself
 
 Do you remember the plot of the last exercise? Let's make an even cooler plot!
@@ -103,7 +103,7 @@ plt.show()
 # SCT written with pythonwhat: https://github.com/datacamp/pythonwhat/wiki
 
 test_function("numpy.unique",
-              not_called_msg = "Don't remove the call of "np.unique" to define `ints`.",
+              not_called_msg = "Don't remove the call of `np.unique` to define `ints`.",
               incorrect_msg = "Don't change the call of `np.unique` to define `ints`.")
 
 test_object("ints",
