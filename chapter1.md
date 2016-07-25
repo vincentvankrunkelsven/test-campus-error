@@ -9,8 +9,6 @@ attachments :
 
 Have a look at the plot that showed up in the viewer to the right. Which type of movies have the worst rating assigned to them?
 
-THIS  IS A TEST
-
 *** =instructions
 - Long movies, clearly
 - Short movies, clearly
@@ -118,8 +116,6 @@ test_function("matplotlib.pyplot.scatter",
               incorrect_msg = "You didn't use `plt.scatter()` correctly, have another look at the instructions.")
 
 test_function("matplotlib.pyplot.show")
-
-test_student_typed("test")
 
 success_msg("Great work!")
 ```
